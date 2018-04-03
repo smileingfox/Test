@@ -28,7 +28,7 @@ Page({
      }),*/
 
     wx.request({
-      url: 'https://oursparkapplication.cn/upload',
+      url: '-----------',
       method: 'GET',
       data: {
         todolist: this.data.todos//wx.getStorageSync('todo_list') 
@@ -63,7 +63,7 @@ Page({
     var that =this;
     //var that =this;
     wx.request({
-      url: 'https://oursparkapplication.cn/download',
+      url: '-------',
       method: 'GET',
       data: {
         x: '1'//wx.getStorageSync('todo_list') 
